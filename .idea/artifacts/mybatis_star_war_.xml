@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="mybatis-star:war-孟帅">
+    <output-path>$PROJECT_DIR$/../../学习材料/作业/20200710</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>mybatis-star</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="mybatis-star_war-孟帅.war">
+      <element id="dir-copy" path="$PROJECT_DIR$" />
+    </root>
+  </artifact>
+</component>

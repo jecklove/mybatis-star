@@ -4,6 +4,14 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 
+    <!--
+ mybatis主配置文件==》配置清单
+   1.属性配置======》jdbc.properties
+   2.框架配置======》日志，缓存，别名
+   3.环境配置======》dev/test/prod
+   4.导入模块配置文件
+
+ -->
     <!-- 环境配置 -->
     <environments default="development">
         <!-- 开发环境 -->
@@ -21,6 +29,6 @@
     <!-- 导入模块配置文件 -->
     <mappers>
         <!-- 用户管理sql语句xml文件 -->
-        <mapper resource="mapper/UserMapper.xml"/>
+        <mapper resource="mybatis/UserMapper.xml"/>
     </mappers>
 </configuration>
